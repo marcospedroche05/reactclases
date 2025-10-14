@@ -1,12 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Contador from "./components/Contador";
+import DibujosComplejos from "./components/DibujosComplejos";
+import DibujosComplejosRender from "./components/DibujosComplejosRender";
+import PadreDeportes from "./components/PadreDeportes";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    {/* <Contador numero="4" />
+    <Contador numero="1" />
+    <DibujosComplejos />
+    <DibujosComplejosRender /> */}
+    <PadreDeportes />
     <App />
   </React.StrictMode>
 );
