@@ -6,9 +6,9 @@ class PadreDeportes extends Component {
   state = {
     favorito: "",
   };
-  mostrarFavorito = (fav) => {
+  mostrarFavorito = (deporteSeleccionado) => {
     this.setState({
-      favorito: fav,
+      favorito: deporteSeleccionado,
     });
   };
   render() {
